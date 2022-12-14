@@ -28,6 +28,7 @@ body{
 h1,h2,h3{
     color: var(--color-heading);
     margin-bottom: 1rem;
+    line-height: 1.1;
 }
 
 h1{
@@ -235,7 +236,7 @@ a{
     background: #ec3000;
 }
 
-.btn--streched{
+.btn--stretched{
     padding-left: 6rem;
     padding-right: 6rem;
 }
@@ -598,7 +599,7 @@ a{
 }
 
 .block--dark .block__heading{
-    color: white;
+    color: #fff;
 }
 
 .block--skewd--right{
@@ -687,6 +688,42 @@ a{
 
     .nav__item{
         border: 0;
+    }
+    
+}
+
+/* HERO */
+
+.hero__tagline {
+    font-size: 1.5rem;
+    color: #b9c3cf;
+    letter-spacing: 1.5px;
+    margin: 2rem 0 5rem;
+
+}
+
+.hero__heading{
+    font-weight: 200;
+    color: white;
+}
+
+.hero___img{
+    width: 100%;
+}
+
+.hero{
+    clip-path: polygon(0 0, 100% 0, 100% 95%, 0 100%);
+
+}
+
+@media screen and (min-width: 768px) {
+    .hero{
+        padding-top: 0;
+    }
+
+    .hero__content{
+        text-align: left;
+        align-self: center;
     }
     
 }
