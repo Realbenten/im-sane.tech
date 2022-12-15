@@ -4,11 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="It's A Sane Testing Site">
-    <meta property="og:title" content="SANE-TEST...">
-    <title>SANE OSM --- 8$$</title>
+    <title>DESIGN</title>
     <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -136,7 +133,7 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, atque.</p>
         </header>
         <article class="grid grid--1x2 feature">
-            <div class="feature__content" data-aos="fade">
+            <div class="feature__content">
                 <span class="icon-container">
                     <svg class="icon icon--primary">
                         <use xlink:href="images/sprite.svg#easy"></use>
@@ -146,7 +143,7 @@
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur quibusdam fugit delectus eos nemo at iure tenetur autem saepe velit!</p>
                   <a href="#" class="link-arrow">Learn More</a>
             </div>
-            <picture data-aos="zoom-in-left">
+            <picture>
                 <source type="image/webp" 
                 srcset="images/easy.webp 1x , images/easy@2x.webp 2x">
                 <source type="image/png" 
@@ -283,6 +280,7 @@
             <p>Lorem ipsum dolor sit amet.?</p>
         </header>
         <div class="container">
+            <body style="padding: 5rem;">
                 <div class="card testimonial">
                     <div class="grid grid--1x2">
                         <div class="testimonial__image">
@@ -315,6 +313,7 @@
                         </blockquote>
                     </div>
                 </div>
+            </body>
         </div>
     </section>
 
@@ -330,13 +329,13 @@
     <footer class="block block--dark footer">
         <div class="container grid footer__sections">
             <section class="collapsible collapsible__expanded footer__section">
-                <div class="collapsible__header">
+                <header class="collapsible__header">
                     <h2 class="collapsible__heading footer__heading">Hosting</h2>
                     <svg class="icon icon--white collapsible__menu">
                         <use xlink:href="images/sprite.svg#menu">
                         </use>
                       </svg>
-                </div>
+                </header>
                 <div class="collapsible__content">
                     <ul class="list">
     <li class="list__item"><a href="#">Hosting</a></li>
@@ -346,13 +345,13 @@
                 </div>
             </section>
             <section class="collapsible  footer__section">
-                <div class="collapsible__header">
+                <header class="collapsible__header">
                     <h2 class="collapsible__heading footer__heading">Uses</h2>
                     <svg class="icon icon--white collapsible__menu">
                         <use xlink:href="images/sprite.svg#menu">
                         </use>
                       </svg>
-                </div>
+                </header>
                 <div class="collapsible__content">
                     <ul class="list">
                     <li class="list__item"><a href="#">Hosting</a></li>
@@ -363,13 +362,13 @@
                 </div>
             </section>
             <section class="collapsible  footer__section">
-                <div class="collapsible__header">
+                <header class="collapsible__header">
                     <h2 class="collapsible__heading footer__heading">Pricing</h2>
                     <svg class="icon icon--white collapsible__menu">
                         <use xlink:href="images/sprite.svg#menu">
                         </use>
                       </svg>
-                </div>
+                </header>
                 <div class="collapsible__content">
                     <ul class="list">
     <li class="list__item"><a href="#">Hosting</a></li>
@@ -378,19 +377,15 @@
     </ul>
                 </div>
             </section>
-            <div class="footer__brand">
+            <section class="footer__brand">
                 <img src="./images/logo.svg" alt="">
                 <p class="footer__copyright">Copyright Sane 2022 Service Apply</p>
-            </div>
+            </section>
         </div>
     </footer>
     
     <script src="js/main.js"></script>
 
     <script src="js/main.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
 </body>
 </html>
